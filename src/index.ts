@@ -44,7 +44,7 @@ const io = initSocketIO(server);
 
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "https://bookbarter-bice.vercel.app",
         methods: ["GET", "POST", "HEAD", "PUT", "DELETE", "PATCH", "OPTIONS"],
         credentials: true,
     })
